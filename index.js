@@ -7,7 +7,15 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use('/schools',schoolRouter)
+app.use('/schools', schoolRouter);
+
+app.get('/', (req, res) => {
+    try {
+        res.status(200).send("welcome to the sparts tech home page")
+    } catch (error) {
+        res.status(500).send({error:error.message})
+    }
+})
 
 app.listen(8080, async() => {
     await connection;

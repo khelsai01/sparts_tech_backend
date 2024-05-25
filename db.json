@@ -1,0 +1,61 @@
+{
+    "schools": [
+      {
+        
+        "institutes": [
+          {
+            "id": "1",
+            "name": "Morgan School",
+            "image": "https://i.pinimg.com/474x/1b/e3/8d/1be38d47bf8a2cf4a5c66403db36c53a.jpg"
+          },
+          {
+            "id": "2",
+            "name": "Kidzee School",
+            "image": "https://www.commercialdesignindia.com/cloud/2021/11/26/uvVIVse0-kidzee-school-Ar-Sumit-Dhawan2-2.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Prabhat Kids School",
+            "image": "ttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Mf53UNX2XKXA1Pr8Y92PCKH37zFAuE0WJRwNrPq1cw&s"
+          },
+          {
+            "id": "4",
+            "name": "Rigo Louie",
+            "image": "https://biblus.accasoftware.com/en/wp-content/uploads/sites/2/2018/10/Facciata_progetti-edifici-scolastici-Troplo-Kids_render_software-BIM-architettura_Edificius.jpg"
+          },
+          {
+            "id": "5",
+            "name": "Mia Williams",
+            "image": "https://cdn.firstcry.com/education/2022/10/16165436/A1.jpg"
+          }
+        ],
+        "students": [
+          {
+            "id": "1",
+            "name": "John Morgan",
+            "image": "https://www.visualsstock.com/details_watermark.php?filename=51674"
+          },
+          {
+            "id": "2",
+            "name": "Ellie Anderson",
+            "image": "https://thumbs.dreamstime.com/b/happy-school-kids-studying-together-group-96291141.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Nia Adebayo",
+            "image": "https://www.greatschools.org/gk/wp-content/uploads/2014/08/Preschool-social-studies-resized-750x325.jpg"
+          },
+          {
+            "id": "4",
+            "name": "Rigo Louie",
+            "image": "https://epe.brightspotcdn.com/dims4/default/d9ca346/2147483647/strip/true/crop/5895x4000+0+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.us-east-1.amazonaws.com%2F80%2Fba%2Fbfde3f2b4212a3aff9f259ecd157%2F0124-preschool-q-a-1471858525.jpg"
+          },
+          {
+            "id": "5",
+            "name": "Mia Williams",
+            "image": "https://www.shutterstock.com/image-photo/group-multi-ethnic-kids-sitting-260nw-2073059288.jpg"
+          }
+        ]
+      }
+    ]
+  }

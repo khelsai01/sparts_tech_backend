@@ -1,23 +1,10 @@
-const express = require("express");
-const cors = require("cors");
-const { connection } = require("./db");
-const { schoolRouter } = require("./school/school.routes");
+const jsonServer = require("json-server"); // importing json-server library
+const server = jsonServer.create();
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 8080; //  chose port from here like 8080, 3001
 
-const app = express();
+server.use(middlewares);
+server.use(router);
 
-app.use(cors());
-app.use(express.json());
-app.use('/schools', schoolRouter);
-
-app.get('/',(req, res) => {
-    try {
-       res.status(200).send("welcome to the sparts tech home page")
-    } catch (error) {
-        res.status(500).send({error:error.message})
-    }
-})
-
-app.listen(8080, async() => {
-    await connection;
-    console.log("Server is running on port 8080");
-})
+server.listen(port);

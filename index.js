@@ -9,9 +9,9 @@ app.use(cors());
 app.use(express.json());
 app.use('/schools', schoolRouter);
 
-app.get('/', (req, res) => {
+app.get('/',(req, res) => {
     try {
-        res.status(200).send("welcome to the sparts tech home page")
+       res.status(200).send("welcome to the sparts tech home page")
     } catch (error) {
         res.status(500).send({error:error.message})
     }
